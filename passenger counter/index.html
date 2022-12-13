@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>passenger counter</title>
+    <link rel="stylesheet" href="/main.css" ></link>
+    <script src="/main.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      
+    </div>
+    <div class="container">
+      <div class="disp">
+        People entered:
+        <div id="incrementResult"></div>
+        <span id="peopleCount"></span>
+      </div>
+      <div class="form">
+        <form method="post" action="/main.js">
+          <div class="increment">
+            <button type="button" onclick="increment()">Increment</button>
+          </div>
+          <div class="save">
+            <button type="button" onclick="save()">Save</button>
+          </div>
+          <div class="reset">
+            <button type="button" onclick="clearValue()">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
